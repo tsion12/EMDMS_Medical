@@ -4,7 +4,8 @@ import { BiSolidDashboard } from "react-icons/bi";
 import { MdOutlineNoteAlt } from "react-icons/md";
 import { Link, useLocation } from "react-router-dom";
 import { BsPersonAdd } from "react-icons/bs";
-import { HiOutlineBars3, HiXMark } from "react-icons/hi2";
+
+
 import MolsLogoText from "../assets/svg/MOLSLogoText.svg";
 import HMLogo from "../assets/svg/HMLOGO.svg";
 import BIQU from "../assets/svg/BIQU.svg";
@@ -23,7 +24,7 @@ const SideBar = () => {
   }, [location]);
   return (
     <>
-      <div className=" w-[250px] h-screen bg-new  px-4  fixed flex flex-col mt-10 space-y-10  md:relative z-20">
+      <div className=" hidden w-[250px] h-screen bg-new  px-4  fixed md:flex flex-col mt-10 space-y-10  md:relative z-20">
         <div className="">
           <img src={BIQU} alt="Company Logo" className=" px-8 py-4" />
         </div>
@@ -32,7 +33,7 @@ const SideBar = () => {
             to="/"
             className={`${
               activePage === "Dashboard"
-                ? "bg-white text-new  hover:bg-Primary/20 "
+                ? "bg-white text-new   "
                 : "hover:bg-N99/50 text-N60"
             } w-full flex gap-8 items-center justify-start px-4 py-2 cursor-pointer rounded-lg transition-all duration-300 ease-in-out`}>
             <BiSolidDashboard className="text-2xl" />
@@ -45,7 +46,7 @@ const SideBar = () => {
             to="/medical"
             className={`${
               activePage === "Medical"
-                ? "bg-white text-new  hover:bg-Primary/20 "
+                ? "bg-white text-new   "
                 : "hover:bg-N99/50 text-N60"
             } w-full flex gap-8 items-center justify-start px-4 py-2 cursor-pointer rounded-lg transition-all duration-300 ease-in-out`}>
             <BsPersonAdd className="text-2xl" />
@@ -58,7 +59,7 @@ const SideBar = () => {
             to="/status"
             className={`${
               activePage === "Status"
-                ? "bg-white text-new  hover:bg-Primary/20 "
+                ? "bg-white text-new   "
                 : "hover:bg-N99/50 text-N60"
             } w-full flex gap-8 items-center justify-start px-4 py-2 cursor-pointer transition-all rounded-lg duration-300 ease-in-out`}>
             <MdOutlineNoteAlt className="text-2xl" />

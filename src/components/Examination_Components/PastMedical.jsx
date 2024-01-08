@@ -34,25 +34,25 @@ const PastMedical = ({ setCurrentTab }) => {
             <div>
               Diagnosis? <span className="text-red-500">*</span>
             </div>
-            <input
+            <textarea
               type="text"
-              className="border w-[25%] focus:outline-Emdms/20 h-24 rounded-lg text-left placeholder:px-2  "
+              className="border w-full md:w-[25%] focus:outline-Emdms/20 h-24 rounded-lg text-left placeholder:px-2  "
               placeholder="Type here"
             />
             <div>
               Duration of illness? <span className="text-red-500">*</span>
             </div>
-            <input
+            <textarea
               type="text"
-              className="border w-[25%] focus:outline-Emdms/20 h-24 rounded-lg text-left placeholder:px-2  "
+              className="border w-full md:w-[25%] focus:outline-Emdms/20 h-24 rounded-lg text-left placeholder:px-2  "
               placeholder="Type here"
             />
             <div>
               On Medication? <span className="text-red-500">*</span>
             </div>
-            <input
+            <textarea
               type="text"
-              className="border w-[25%] focus:outline-Emdms/20 h-24 rounded-lg text-left placeholder:px-2  "
+              className="border w-full md:w-[25%] focus:outline-Emdms/20 h-24 rounded-lg text-left placeholder:px-2  "
               placeholder="Type here"
             />
           </div>
@@ -85,9 +85,9 @@ const PastMedical = ({ setCurrentTab }) => {
             <div>
               Comment <span className="text-red-500">*</span>
             </div>
-            <input
+            <textarea
               type="text"
-              className="border w-[25%] focus:outline-Emdms/20 h-24 rounded-lg text-left placeholder:px-2  "
+              className="border w-full md:w-[25%] focus:outline-Emdms/20 h-24 rounded-lg text-left placeholder:px-2  "
               placeholder="Type here"
             />
           </div>
@@ -120,9 +120,9 @@ const PastMedical = ({ setCurrentTab }) => {
             <div>
               Comment <span className="text-red-500">*</span>
             </div>
-            <input
+            <textarea
               type="text"
-              className="border w-[25%] focus:outline-Emdms/20 h-24 rounded-lg text-left placeholder:px-2  "
+              className="border w-full md:w-[25%] focus:outline-Emdms/20 h-24 rounded-lg text-left placeholder:px-2  "
               placeholder="Type here"
             />
           </div>
@@ -156,15 +156,15 @@ const PastMedical = ({ setCurrentTab }) => {
             <div>
               Comment <span className="text-red-500">*</span>
             </div>
-            <input
+            <textarea
               type="text"
-              className="border w-[25%] focus:outline-Emdms/20 h-24 rounded-lg text-left placeholder:px-2  "
+              className="border w-full md:w-[25%] focus:outline-Emdms/20 h-24 rounded-lg text-left placeholder:px-2  "
               placeholder="Type here"
             />
           </div>
         )}
       </div>{" "}
-      <div className="flex w-[90%] pt-24 justify-end items-center space-x-6 text-xs  ">
+      <div className="flex w-[90%] pt-28 justify-end items-center space-x-6 text-xs  ">
         <div className="text-new border border-new cursor-pointer bg-[#F0F7F7] font-bold px-6 rounded-md py-1">
           {" "}
           Previous

@@ -9,14 +9,14 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
       </div>
       <div className="py-2 flex h-[70vh] overflow-y-auto noscrollBar  flex-col pt-5 space-y-8 text-xs w-full ">
         <div className="text-new">Physical Examination</div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               General Appearance <span className="text-red-500">*</span>
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20  md:w-1/2 w-full  p-2"
               placeholder="120/70"
             />
           </div>
@@ -26,20 +26,20 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20  md:w-1/2 w-full  p-2"
               placeholder="120/70"
             />
           </div>
         </div>
         <div className="text-new font-bold">LGS</div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               Lymph Nodes <span className="text-red-500">*</span>
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20  md:w-1/2 w-full  p-2"
               placeholder="120/70"
             />
           </div>
@@ -49,13 +49,13 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs  w-1/2 h-20  p-2"
+              className="border rounded-md placeholder:text-xs  md:w-1/2 w-full h-20  p-2"
               placeholder="type here"
             />
           </div>
         </div>
         <div className="border border-dashed border-Emdms/20  w-[90%]"></div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 col-span-2 ">
             <div>
               Respiratory System <span className="text-red-500">*</span>
@@ -68,7 +68,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
           </div>
         </div>
         <div className="text-new font-bold">CVS</div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div className="flex flex-col space-y-1">
               <div>
@@ -79,7 +79,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
 
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20  md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
@@ -94,14 +94,14 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
 
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20  md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
         </div>
         <div className="border border-dashed border-Emdms/20  w-[90%]"></div>
         <div className="text-new">GASTRO INTESTINAL SYSTEM</div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div className="flex flex-col space-y-1">
               <div>
@@ -115,7 +115,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
 
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20  md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
@@ -132,7 +132,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
 
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20  md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
@@ -157,7 +157,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
         </div>
         <div className="border border-dashed border-Emdms/20  w-[90%]"></div>
         <div className="text-new">MUSCULOSKELETAL SYSTEM</div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div className="flex flex-col space-y-1">
               <div>
@@ -168,7 +168,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
 
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20  md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
@@ -182,7 +182,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
 
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20  md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
@@ -197,7 +197,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
             Mental Status Examination
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div className="flex flex-col space-y-1">
               <div>
@@ -211,7 +211,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
 
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs   w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs   md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
@@ -228,7 +228,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
 
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs   w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs   md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
@@ -245,7 +245,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
 
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs   w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs   md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
@@ -262,7 +262,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
 
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs   w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs   md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
@@ -279,7 +279,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
 
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs   w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs   md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
@@ -312,7 +312,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
           />
         </div>
         <div className="text-new">REFLEXES</div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div className="flex flex-col space-y-1">
               <div>
@@ -323,7 +323,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
 
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20  md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
@@ -337,7 +337,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
 
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20  md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
@@ -352,7 +352,7 @@ const MedicalExaminationTwo = ({ setCurrentTab }) => {
         <div>
           <textarea
             type="text"
-            className="border rounded-md placeholder:text-xs h-20  w-[90%]  p-2"
+            className="border rounded-md placeholder:text-xs h-20 w-full  md:w-[90%]  p-2"
             placeholder="type here"
           />
         </div>

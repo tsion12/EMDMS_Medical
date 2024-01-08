@@ -13,13 +13,13 @@ const InvestigationOne = ({ setCurrentTab }) => {
         <div className="font-bold">Section 1: Laboratory</div>
       </div>
       <div className="py-2 flex h-[70vh] overflow-y-auto noscrollBar  flex-col pt-5 space-y-8 text-xs w-full ">
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               Blood Group <span className="text-red-500">*</span>
             </div>
 
-            <div className="w-1/2">
+            <div className="md:w-1/2 w-full">
               <Select
                 defaultValue={selectedOption}
                 onChange={setSelectedOption}
@@ -33,7 +33,7 @@ const InvestigationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs   w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs   md:w-1/2 w-full  p-2"
               placeholder="120/70"
             />
           </div>
@@ -43,7 +43,7 @@ const InvestigationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs   w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs   md:w-1/2 w-full  p-2"
               placeholder="120/70"
             />
           </div>
@@ -53,7 +53,7 @@ const InvestigationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs   w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs   md:w-1/2 w-full  p-2"
               placeholder="120/70"
             />
           </div>
@@ -63,7 +63,7 @@ const InvestigationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs   w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs   md:w-1/2 w-full  p-2"
               placeholder="120/70"
             />
           </div>
@@ -86,7 +86,7 @@ const InvestigationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs   w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs   md:w-1/2 w-full  p-2"
               placeholder="120/70"
             />
           </div>
@@ -95,14 +95,14 @@ const InvestigationOne = ({ setCurrentTab }) => {
         <div className="border border-dashed border-Emdms/20  w-[90%]"></div>
         <div className="text-new">BIOCHEMISTRY</div>
         <div className="italic">Liver Function Test</div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               SGOT <span className="text-red-500">*</span>
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs   w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs   md:w-1/2 w-full  p-2"
               placeholder="120/70"
             />
           </div>
@@ -112,7 +112,7 @@ const InvestigationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs   w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs   md:w-1/2 w-full  p-2"
               placeholder="120/70"
             />
           </div>
@@ -122,20 +122,20 @@ const InvestigationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs   w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs   md:w-1/2 w-full  p-2"
               placeholder="120/70"
             />
           </div>
         </div>
         <div className="italic">Renal Function Test</div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               Creatinine <span className="text-red-500">*</span>
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs   w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs   md:w-1/2 w-full  p-2"
               placeholder="120/70"
             />
           </div>
@@ -145,7 +145,7 @@ const InvestigationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs   w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs   md:w-1/2 w-full  p-2"
               placeholder="120/70"
             />
           </div>
@@ -160,13 +160,13 @@ const InvestigationOne = ({ setCurrentTab }) => {
         </div>
         <div className="border border-dashed border-Emdms/20  w-[90%]"></div>
         <div className="text-new">SEROLOGY</div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               HIV l & ll <span className="text-red-500">*</span>
             </div>
 
-            <div className="w-1/2">
+            <div className="md:w-1/2 w-full">
               <Select
                 defaultValue={selectedOption}
                 onChange={setSelectedOption}
@@ -179,7 +179,7 @@ const InvestigationOne = ({ setCurrentTab }) => {
               Hbs Ag <span className="text-red-500">*</span>
             </div>
 
-            <div className="w-1/2">
+            <div className="md:w-1/2 w-full">
               <Select
                 defaultValue={selectedOption}
                 onChange={setSelectedOption}
@@ -192,7 +192,7 @@ const InvestigationOne = ({ setCurrentTab }) => {
               HCV <span className="text-red-500">*</span>
             </div>
 
-            <div className="w-1/2">
+            <div className="md:w-1/2 w-full">
               <Select
                 defaultValue={selectedOption}
                 onChange={setSelectedOption}
@@ -205,7 +205,7 @@ const InvestigationOne = ({ setCurrentTab }) => {
               VDRL <span className="text-red-500">*</span>
             </div>
 
-            <div className="w-1/2">
+            <div className="md:w-1/2 w-full">
               <Select
                 defaultValue={selectedOption}
                 onChange={setSelectedOption}
@@ -218,7 +218,7 @@ const InvestigationOne = ({ setCurrentTab }) => {
               TPHA <span className="text-red-500">*</span>
             </div>
 
-            <div className="w-1/2">
+            <div className="md:w-1/2 w-full">
               <Select
                 defaultValue={selectedOption}
                 onChange={setSelectedOption}
@@ -229,13 +229,13 @@ const InvestigationOne = ({ setCurrentTab }) => {
         </div>
 
         <div className="text-new">THICK FILM FOR</div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               Malaria <span className="text-red-500">*</span>
             </div>
 
-            <div className="w-1/2">
+            <div className="md:w-1/2 w-full">
               <Select
                 defaultValue={selectedOption}
                 onChange={setSelectedOption}
@@ -248,7 +248,7 @@ const InvestigationOne = ({ setCurrentTab }) => {
               Micro Filaria <span className="text-red-500">*</span>
             </div>
 
-            <div className="w-1/2">
+            <div className="md:w-1/2 w-full">
               <Select
                 defaultValue={selectedOption}
                 onChange={setSelectedOption}

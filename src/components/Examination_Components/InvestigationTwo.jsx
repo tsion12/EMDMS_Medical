@@ -15,14 +15,14 @@ const InvestigationTwo = ({ setCurrentTab }) => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               Appearance <span className="text-red-500">*</span>
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -32,7 +32,7 @@ const InvestigationTwo = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -42,7 +42,7 @@ const InvestigationTwo = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -52,20 +52,20 @@ const InvestigationTwo = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
         </div>
         <div className="italic text-[#586166]">Urine Chemical Examination</div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               Ketone <span className="text-red-500">*</span>
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -75,7 +75,7 @@ const InvestigationTwo = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -85,7 +85,7 @@ const InvestigationTwo = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -95,7 +95,7 @@ const InvestigationTwo = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -105,7 +105,7 @@ const InvestigationTwo = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -115,7 +115,7 @@ const InvestigationTwo = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -123,14 +123,14 @@ const InvestigationTwo = ({ setCurrentTab }) => {
         <div className="italic text-[#586166]">
           Urine Microscopic Examination
         </div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               RBC/HPF <span className="text-red-500">*</span>
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -140,7 +140,7 @@ const InvestigationTwo = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -150,12 +150,12 @@ const InvestigationTwo = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
           <div></div>
-          <div className="col-span-2 flex flex-col space-y-4 ">
+          <div className=" flex flex-col space-y-4 ">
             <div>Other (specify)</div>
             <div className="w-full ">
               <textarea
@@ -172,7 +172,7 @@ const InvestigationTwo = ({ setCurrentTab }) => {
           <div className="text-new">STOOL EXAMINATION</div>
           <div className="italic text-[#586166]">Stool Examination</div>
         </div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1  gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div className="flex flex-col space-y-1">
               <div>
@@ -187,7 +187,7 @@ const InvestigationTwo = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -205,7 +205,7 @@ const InvestigationTwo = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -216,12 +216,12 @@ const InvestigationTwo = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
           <div></div>
-          <div className="col-span-2 flex flex-col space-y-4 ">
+          <div className="flex flex-col space-y-4 ">
             <div>Other (specify)</div>
             <div className="w-full ">
               <textarea

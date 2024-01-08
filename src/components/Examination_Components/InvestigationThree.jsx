@@ -24,7 +24,7 @@ const InvestigationThree = ({ setCurrentTab }) => {
             />
           </div>
         </div>
-        <div className="col-span-2 flex flex-col space-y-4 ">
+        <div className=" flex flex-col space-y-4 ">
           <div>Other (specify)</div>
           <div className="w-full ">
             <textarea
@@ -37,14 +37,14 @@ const InvestigationThree = ({ setCurrentTab }) => {
         <div className="border border-dashed border-Emdms/20  w-[90%]"></div>
 
         <div className="text-new">VACCINATION STATUS</div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               Polio <span className="text-red-500">*</span>
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -54,7 +54,7 @@ const InvestigationThree = ({ setCurrentTab }) => {
             </div>
 
             <DatePicker
-              className=" border border-gray-200 p-2 rounded-md w-1/2 "
+              className=" border border-gray-200 p-2 rounded-md w-full md:w-1/2 "
               selected={startDate}
               onChange={(date) => setStartDate(date)}
               placeholder="Select date"
@@ -66,7 +66,7 @@ const InvestigationThree = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -76,7 +76,7 @@ const InvestigationThree = ({ setCurrentTab }) => {
             </div>
 
             <DatePicker
-              className=" border border-gray-200 p-2 rounded-md w-1/2 "
+              className=" border border-gray-200 p-2 rounded-md w-full md:w-1/2 "
               selected={startDate}
               onChange={(date) => setStartDate(date)}
               placeholder="Select date"
@@ -88,7 +88,7 @@ const InvestigationThree = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -98,7 +98,7 @@ const InvestigationThree = ({ setCurrentTab }) => {
             </div>
 
             <DatePicker
-              className=" border border-gray-200 p-2 rounded-md w-1/2 "
+              className=" border border-gray-200 p-2 rounded-md w-full md:w-1/2 "
               selected={startDate}
               onChange={(date) => setStartDate(date)}
               placeholder="Select date"
@@ -110,7 +110,7 @@ const InvestigationThree = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -120,7 +120,7 @@ const InvestigationThree = ({ setCurrentTab }) => {
             </div>
 
             <DatePicker
-              className=" border border-gray-200 p-2 rounded-md w-1/2 "
+              className=" border border-gray-200 p-2 rounded-md w-full md:w-1/2 "
               selected={startDate}
               onChange={(date) => setStartDate(date)}
               placeholder="Select date"
@@ -132,7 +132,7 @@ const InvestigationThree = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -142,7 +142,7 @@ const InvestigationThree = ({ setCurrentTab }) => {
             </div>
 
             <DatePicker
-              className=" border border-gray-200 p-2 rounded-md w-1/2 "
+              className=" border border-gray-200 p-2 rounded-md w-full md:w-1/2 "
               selected={startDate}
               onChange={(date) => setStartDate(date)}
               placeholder="Select date"

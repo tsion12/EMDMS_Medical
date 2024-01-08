@@ -9,14 +9,14 @@ const MedicalExaminationOne = ({ setCurrentTab }) => {
       </div>
       <div className="py-2 flex h-[70vh] overflow-y-auto noscrollBar  flex-col pt-5 space-y-8 text-xs w-full ">
         <div className="text-new">vital sigh</div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1  gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               B.P <span className="text-red-500">*</span>
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs  md:w-1/2 w-full  p-2"
               placeholder="120/70"
             />
           </div>
@@ -26,7 +26,7 @@ const MedicalExaminationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs  md:w-1/2 w-full  p-2"
               placeholder="type result here"
             />
           </div>
@@ -36,20 +36,20 @@ const MedicalExaminationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs  md:w-1/2 w-full  p-2"
               placeholder="type result here"
             />
           </div>
         </div>
         <div className="text-new font-bold">Pulse Rate</div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1  gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               PR <span className="text-red-500">*</span>
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs  md:w-1/2 w-full  p-2"
               placeholder="in min"
             />
           </div>
@@ -59,7 +59,7 @@ const MedicalExaminationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs  md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
@@ -69,20 +69,20 @@ const MedicalExaminationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs  md:w-1/2 w-full  p-2"
               placeholder="text"
             />
           </div>
         </div>
         <div className="border border-dashed border-Emdms/20  w-[90%]"></div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1  gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               Height <span className="text-red-500">*</span>
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs  md:w-1/2 w-full  p-2"
               placeholder="in min"
             />
           </div>
@@ -92,7 +92,7 @@ const MedicalExaminationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs  md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
@@ -102,21 +102,21 @@ const MedicalExaminationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs  md:w-1/2 w-full  p-2"
               placeholder="text"
             />
           </div>
         </div>
         <div className="border border-dashed border-Emdms/20  w-[90%]"></div>
         <div className="text-new">Visual Acuity (Unaided)</div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid md:grid-cols-2 grid-cols-1  gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               Distant Rt. Eye <span className="text-red-500">*</span>
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs  md:w-1/2 w-full  p-2"
               placeholder="in min"
             />
           </div>
@@ -126,7 +126,7 @@ const MedicalExaminationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs  md:w-1/2 w-full  p-2"
               placeholder="type here"
             />
           </div>
@@ -136,7 +136,7 @@ const MedicalExaminationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs  md:w-1/2 w-full  p-2"
               placeholder="text"
             />
           </div>
@@ -146,7 +146,7 @@ const MedicalExaminationOne = ({ setCurrentTab }) => {
             </div>
             <input
               type="text"
-              className="border rounded-md placeholder:text-xs  w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs  md:w-1/2 w-full  p-2"
               placeholder="text"
             />
           </div>

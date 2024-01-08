@@ -11,7 +11,7 @@ const PhysicalComment = ({ setCurrentTab }) => {
     <>
       {" "}
       <div className="py-2 flex h-[70vh] overflow-y-auto noscrollBar  flex-col pt-5 space-y-8 text-xs w-full ">
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
           <div className="col-span-2 flex flex-col space-y-4 ">
             <div>
               Remark <span className="text-red-500">*</span>
@@ -30,7 +30,7 @@ const PhysicalComment = ({ setCurrentTab }) => {
             </div>
             <textarea
               type="text"
-              className="border rounded-md placeholder:text-xs h-20 w-1/2  p-2"
+              className="border rounded-md placeholder:text-xs h-20 w-full md:w-1/2  p-2"
               placeholder="comment here"
             />
           </div>
@@ -45,13 +45,13 @@ const PhysicalComment = ({ setCurrentTab }) => {
             for the above mentioned job according to the GCC criteria.
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-4 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
           <div className="flex flex-col space-y-4 ">
             <div>
               Blood Group <span className="text-red-500">*</span>
             </div>
 
-            <div className="w-1/2">
+            <div className="w-full md:w-1/2">
               <Select
                 defaultValue={selectedOption}
                 onChange={setSelectedOption}
