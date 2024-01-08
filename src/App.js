@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+import { Routes } from "react-router-dom";
+
+import MedicalLayout from "./layout/MedicalLayout";
+import routes from "./routes/route";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="h-screen bg-green-200 overflow-hidden  relative font-poppins">
+      <MedicalLayout>
+        <Routes>{routes}</Routes>
+      </MedicalLayout>
     </div>
   );
 }
